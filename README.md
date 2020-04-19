@@ -7,6 +7,8 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/gkarthiks/ip-geo-locator)](https://goreportcard.com/report/github.com/gkarthiks/ip-geo-locator)
 ![GitHub](https://img.shields.io/github/license/gkarthiks/ip-geo-locator.svg?style=plastic)
 
+![](geolocator.jpeg)
+
 Locates the geography of the given IP address. The webserver continiously runs on port 8080 and accepts the `GET` request on the following  endpoint `http://<server-address>:8080/ip/<comma_separated_IP_addresses>`
 
 Requests to the above endpoint will be responded with the user friendly JSON responses as shown below.
