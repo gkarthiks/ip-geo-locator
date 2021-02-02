@@ -3,6 +3,7 @@ package main
 import (
 	"encoding/json"
 	"net/http"
+	"os"
 	"strings"
 	"time"
 
@@ -23,7 +24,7 @@ func main() {
 	r.HandleFunc("/ip/{key}", GetGeoIPDetail)
 	srv := &http.Server{
 		Handler:      r,
-		Addr:         ":8080",
+		Addr:         ":" +os.Getenv("PORT"),
 		WriteTimeout: 15 * time.Second,
 		ReadTimeout:  15 * time.Second,
 	}
