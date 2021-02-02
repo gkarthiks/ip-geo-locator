@@ -9,6 +9,11 @@
 
 ![](geolocator.jpeg)
 
+
+## Live Demo
+Try the live demo in Heroku here: https://ip-geo-locator.herokuapp.com/ip/218.189.35.128
+
+
 Locates the geography of the given IP address. The webserver continiously runs on port 8080 and accepts the `GET` request on the following  endpoint `http://<server-address>:8080/ip/<comma_separated_IP_addresses>`
 
 Requests to the above endpoint will be responded with the user friendly JSON responses as shown below.
@@ -77,6 +82,3 @@ http://localhost:8080/ip/218.189.35.128,118.189.35.128,18.189.35.128
 
 ### Docker Image
 This utility project is dockerized and is avilable as a docker image [here](https://hub.docker.com/r/gkarthics/ip-geo-locator).
-
-## Live Demo
-Try the live demo in Heroku here: https://ip-geo-locator.herokuapp.com/ip/218.189.35.128
