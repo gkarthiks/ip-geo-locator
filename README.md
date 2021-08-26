@@ -6,7 +6,7 @@
 ![language](https://img.shields.io/badge/Language-go-blue.svg)
 [![Go Report Card](https://goreportcard.com/badge/github.com/gkarthiks/ip-geo-locator)](https://goreportcard.com/report/github.com/gkarthiks/ip-geo-locator)
 ![GitHub](https://img.shields.io/github/license/gkarthiks/ip-geo-locator.svg?style=plastic)
-
+[![CodeQL](https://github.com/gkarthiks/ip-geo-locator/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/gkarthiks/ip-geo-locator/actions/workflows/codeql-analysis.yml)
 ![](geolocator.jpeg)
 
 
